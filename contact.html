@@ -1,0 +1,45 @@
+﻿<!-- Laetitia Monnier -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "uft-8" />
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Muli" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Griffy|Indie+Flower" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Griffy|Indie+Flower|Ranga" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="stylePrincipal.css">
+	<link rel="stylesheet" type="text/css" href="styleContact.css">
+	<title> La patisserie des Reves </title>
+</head>
+<body>
+	<header>
+		<h1 id="Titre"> Nous Contacter </h1>
+	</header>
+
+	<nav>
+		<ul>
+			<li><a href="indexSite.html" title="Accueil"> L'entreprise </a></li>
+			<li><a href="presentationPartenaire.html" title="Partenaires"> Les partenaires </a></li>
+			<li><a href="presentationProjet.html" title="Projets"> Nos projets </a></li>
+			<li><a href="contact.html" title="Contact"> Nous contacter </a></li>
+		</ul>
+	</nav>
+
+	<section>
+		<form method="POST" action="#">
+				<p class="titreCont">Nom* :</p><label for="nom"></label><input type="text" name="pnom" id="nom" placeholder="Nom" maxlength="20" required autofocus/> </br>
+				<p class="titreCont">Prénom* :</p><label for="prenom"></label><input type="text" name="prenom" id="prenom" placeholder="Prenom" maxlength="20" required/> </br>
+				<p class="titreCont">Entreprise* :</p><label for="entreprise"></label><input type="text" name="entreprise" id="entreprise" placeholder="Entreprise" maxlength="20" required/> </br>
+				<p class="titreCont">Sujet* :</p><label for="sujet"></label><input type="text" name="sujet" id="sujet" placeholder="sujet" maxlength="20" required/> </br>
+				<p class="titreCont">Message* :</p><label for="message"></label><textarea name="message" id="message" placeholder="Veuillez saisir votre message..." rows="10" cols="55" required></textarea> </br>
+				<p class="titreCont" style="font-size: 15px"> * Champ obligatoire </p>
+				<input id="envoyer" type="submit" name="envoyer" value="Envoyer"/>
+
+		</form>
+	</section>
+
+	<footer>
+			<p> - Copyrigth 2017 - La patisserie des Rêves - </p>
+			<img src="images/unicorn.png"/>
+	</footer>
+</body>
+</html>
