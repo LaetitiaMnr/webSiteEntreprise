@@ -1,4 +1,16 @@
 /* Laetitia Monnier */
+/*
+Theme Name: Theme site pour une entreprise
+Theme URI: PatisserieDesReves.fr
+Author: Laetitia Monnier
+Description: Theme css site web Patisserie Des Reves
+Version: 1.0
+License: Patisserie Des Reves
+License URI: PatisserieDesReves.fr
+Text Domain: Patisserie Des Reves
+*/
+
+/* Mise en page des titres de la page contact */
 .titreCont{
 	color: #A13E3E;
 	font-family: 'Abril Fatface', cursive;
@@ -9,6 +21,8 @@
     background-color: #931537;
     color: white;
 }
+
+/* Mise en page du formulaire de la page contact */
 
 form{
 	padding: 10px;
