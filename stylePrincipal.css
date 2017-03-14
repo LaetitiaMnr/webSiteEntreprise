@@ -1,4 +1,14 @@
 /* Laetitia Monnier */
+/*
+Theme Name: Theme site pour une entreprise
+Theme URI: PatisserieDesReves.fr
+Author: Laetitia Monnier
+Description: Theme css site web Patisserie Des Reves
+Version: 1.0
+License: Patisserie Des Reves
+License URI: PatisserieDesReves.fr
+Text Domain: Patisserie Des Reves
+*/
 
 #Titre{
 	font-family: 'Griffy', cursive;
@@ -34,6 +44,7 @@
 	border-radius: 4%;
 }
 
+/* Mise en page des photos et texte de la page Partenaire */
 .projet{
   position: relative;
   width: 50%;
@@ -89,6 +100,8 @@ body{
 	background: url(images/fleurs.jpg) fixed;
 }
 
+/* Mise en page de la bar de menu */
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -122,6 +135,7 @@ li a:hover:not(.active) {
     background-color: #4CAF50;
 }
 
+
 section{
 	width: 1000px;
 	margin : auto;
@@ -134,9 +148,12 @@ section p{
   font-size: 18px;
 }
 
+/* On enlève le 'underline' des liens */
 a{
   text-decoration: none;
 }
+
+/* Ajout d'une addresse google map */
 
 iframe{
   display: block;
